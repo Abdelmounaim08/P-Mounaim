@@ -1,4 +1,5 @@
 import { XMarkIcon } from "@heroicons/react/16/solid";
+import Link from "next/link";
 import React, { useState } from "react";
 interface Props{
   nav:boolean;
@@ -9,14 +10,14 @@ interface Props{
  const MobileNav=({closeNav,nav}:Props)=> {
   const navAnimation =nav ? 'translate-x-0' : 'translate-x-[-100%]';
   return (
-    <div className={`fixed ${navAnimation} z-[100000000]  transform transition-all duration-300 top-0 left-0 bottom-0 z-[10000] right-0 bg-[#09101a]`}>
+    <div className={`fixed ${navAnimation} z-[100000000]  transform transition-all duration-300 top-0 left-0 bottom-0 right-0 bg-[#09101a]`}>
     <div className={`w-[100vw] h-[100vw] flex flex-col items-center justify-center`}>
-              <div className="nav-link-mobile">HOME</div>
-              <div className="nav-link-mobile">SERVICES</div>
-              <div className="nav-link-mobile">ABOUT</div>
-              <div className="nav-link-mobile">PROJECT</div>
-              <div className="nav-link-mobile">BLOG</div>
-              <div className="nav-link-mobile">CONTACT</div>
+              <div className="nav-link-mobile"><Link href="#hero" onClick={closeNav}>HOME</Link></div>
+              <div className="nav-link-mobile"><Link onClick={closeNav} href="#service">SERVICES</Link></div>
+              <div className="nav-link-mobile"><Link onClick={closeNav} href="#ABOUT">ABOUT</Link></div>
+              <div className="nav-link-mobile"><Link onClick={closeNav} href="#PROJECT">PROJECT</Link></div>
+           
+              <div className="nav-link-mobile"><Link onClick={closeNav} href="#CONTACT">CONTACT</Link></div>
   </div>
   <div onClick={closeNav} 
   className="absolute

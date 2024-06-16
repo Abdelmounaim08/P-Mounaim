@@ -1,10 +1,12 @@
 import { ArrowDownTrayIcon } from '@heroicons/react/16/solid'
 import React from 'react'
 import Image from 'next/image'
+import Ballcanvas from './3dmodal'
+
 //bg-[#121130]
 const About = () => {
   return (
-    <div className='  pb-[3rem] bg-[#17284d] pt[4rem] md:pt[8rem]'>
+    <div className='  pb-[3rem] bg-[#09101a]  pt[4rem] md:pt[8rem]' id='ABOUT'>
        <div className='  grid grid-cols-1 md:grid-cols-2 w-[80%] mx-auto gap-[3rem] items-center'>
        <div className=' mt-11'>
         <h1 className='text-[20px] font-bold uppercase text-[#55e6a5] mb-[1rem]'> ABOUT ME</h1>
@@ -25,11 +27,15 @@ const About = () => {
   </button>
 
        </div>
-       <div className='lg:w-[500px]  mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[500px] w-[300px] h-[300px] relative'>
-       <Image src='/image/profile.png'
+       <div className='lg:w-[500px]  mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[500px] w-[200px] h-[150px] relative'>
+     {/**<Ballcanvas icon={'/image/mounaim.jpeg'}/> */}  
+     <Image src='/image/mounaim01.jpeg'
      alt='user' layout='fill' objectFit='contain'
-     className='  relative z-[11] pt-10 mt-10 bg-white  w-[60%] h-[60%] object-contain'/>
-
+     className=' relative z-[11]  mt-10 bg-white  w-[200px] h-[150px] object-contain'/>
+    
+<div className='absolute w-[100%] h-[100%] z-[10] bg-[#55e6a5] pt-4 top-[1rem] right-[-2rem]'>
+ 
+</div>
        </div>
        
         </div> 
