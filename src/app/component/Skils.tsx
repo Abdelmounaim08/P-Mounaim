@@ -19,6 +19,7 @@ function Skils() {
             level2='w-[88%]'
              level3='w-[78%]'/>
         </div>
+        
         <div>
          
           
