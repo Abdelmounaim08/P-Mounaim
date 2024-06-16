@@ -21,7 +21,7 @@ export const Hero = () => {
 <div className='w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] item-center'>
   <div className='mt-6 sm:pt-12'>
    <h1 className='text-[35px] md:text-[50px] text-white font-bold'> 
-      HI, I'M 
+      HI, I{"'"}M
    <span className='text-yellow-400'>  ABDELMOUNAIM !</span>
    </h1>
    
