@@ -8,7 +8,7 @@ function Project() {
     Proj<span className='text-yellow-700 '>ects</span>
     </h1>
     <div>
-    <h3 className='text-black rounded-md mx uppercase text-center bg-white'>Restaurant Manager </h3>
+    <h3 className='text-white rounded-md mx uppercase text-center italic text-[1rem]'>Restaurant Manager </h3>
     <div className='w-[80%] pt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem]'>
     <a href="https://github.com/Abdelmounaim08/restaurant-" className='transform cursor-pointer  hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]'>
          
@@ -32,7 +32,7 @@ function Project() {
     </div>
     </div>
     <div>
-    <h3 className='text-black rounded-md mx uppercase text-center bg-white'>private school </h3>
+    <h3 className='text-white rounded-md mx uppercase text-center italic text-[1rem]'>private school </h3>
     <div className='w-[80%] pt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem]'>
     <a href="https://github.com/Abdelmounaim08/Aljabr_Ecole" className='transform cursor-pointer  hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]'>
          

@@ -16,7 +16,7 @@ export const Hero = () => {
   };
 
   return (
-    <div className="h-[99vh] pt-[10vh] bg-[url('/image/backgroung.jpg')] bg-cover bg-center" id='hero'>
+    <div className="h-[99vh] pt-[10vh] bg-[url('/image/backgroung.jpg')] bg-cover bg-center" id='home'>
       <Particle/> 
 <div className='w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] item-center'>
   <div className='mt-6 sm:pt-12'>
@@ -41,11 +41,13 @@ export const Hero = () => {
  /><p className='text-[20px] font-semibold text-white'>watch the Video</p> </button>
      </div>
    </div>
-   <div className='w-[580px] hidden  ml-[116px]
+   <div    
+   
+    className='w-[580px] hidden  ml-[116px]
    
     relative lg:flex items-center mt-9 rounded-full h-[580px]'>
     
-   <Image src='/image/mounaim07.jpeg'
+   <Image  src='/image/mounaim07.jpeg'
      alt='user' layout='fill' 
      className=' relative z-[16] object-contain  rounded-full '/>
 

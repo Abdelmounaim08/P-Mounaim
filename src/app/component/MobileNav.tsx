@@ -12,7 +12,7 @@ interface Props{
   return (
     <div className={`fixed ${navAnimation} z-[100000000]  transform transition-all duration-300 top-0 left-0 bottom-0 right-0 bg-[#09101a]`}>
     <div className={`w-[100vw] h-[100vw] flex flex-col items-center justify-center`}>
-              <div className="nav-link-mobile"><Link href="#hero" onClick={closeNav}>HOME</Link></div>
+              <div className="nav-link-mobile"><Link href="#home" onClick={closeNav}>HOME</Link></div>
               <div className="nav-link-mobile"><Link onClick={closeNav} href="#service">SERVICES</Link></div>
               <div className="nav-link-mobile"><Link onClick={closeNav} href="#ABOUT">ABOUT</Link></div>
               <div className="nav-link-mobile"><Link onClick={closeNav} href="#PROJECT">PROJECT</Link></div>

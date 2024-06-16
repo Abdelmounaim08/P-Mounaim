@@ -14,7 +14,7 @@ const Nav = ({operNav}:Props)=>{
               <span className="text-yellow-300">DEV</span>
           </h1>
           
-              <div className="nav-link" ><Link href="#hero">HOME</Link></div>
+              <div className="nav-link" ><Link href="#home">HOME</Link></div>
               <div className="nav-link"><Link href="#service">SERVICES</Link></div>
               <div className="nav-link"><Link href="#ABOUT">ABOUT</Link></div>
               <div className="nav-link"><Link href="#PROJECT">PROJECT</Link></div>
