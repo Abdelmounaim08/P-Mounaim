@@ -30,7 +30,7 @@ export const Hero = () => {
     <p className='mt-[1rem] text-[18px] text-[#ffffff92] '>
     Working as a full stack developer is an exhilarating and fulfilling experience for me, as it enables me to be involved in every aspect of a project, starting from designing the user interface all the way to implementing the servers and business logic. I greatly value the opportunity to collaborate with cross-functional teams, 
     contributing my skills and expertise to various stages of application development.</p>
-     <div className='mt-[2rem] flex-col sm:pt-2 space-y-6 sm:space-y-0 sm:flex sm:flex-row  items-center sm:space-x-6'>
+     <div className='sm:mt-[2rem] flex-col md:pt-0  mt-[1.2rem]    space-y-6 sm:space-y-0 sm:flex sm:flex-row  items-center sm:space-x-6'>
 <button className='px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5]
  text-black flex items-center space-x-2'  onClick={handleDownload}>
   <p> Download CV</p>
