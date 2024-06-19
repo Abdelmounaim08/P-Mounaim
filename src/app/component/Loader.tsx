@@ -7,8 +7,9 @@ const Loader = () => {
     </span>
     <p style={{fontSize:14, color:'#F1F1F1' ,fontWeight:800,marginTop:40}}>{progress.progress.toFixed(2)}%</p>
    </Html>
+   
   )
-  
+
 }
 
 export default Loader
