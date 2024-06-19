@@ -12,7 +12,7 @@ function SklisItems({title,year,text}:Props) {
     <h1 className='mt-[2rem] font-semibold uppercase  mb-[1rem] text-[20px] sm:text-[25px] md:text-[30px] text-white  '>
         {title}
     </h1>
-    <p className=' text-[#aaaaaa] font-normal text-[17px] opacity-80 w-full '>{text}</p>
+    <p className=' text-[#aaaaaa] font-normal text-[17px] opacity-80 w-full h-full  '>{text}</p>
 
     </div>
   )
