@@ -1,5 +1,6 @@
 import { DevicePhoneMobileIcon, EnvelopeIcon, MapIcon } from '@heroicons/react/16/solid'
 import React from 'react'
+import { FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa'
 
 function Footer() {
   return (
@@ -52,6 +53,9 @@ function Footer() {
                 <p className='text-[18px] text-white opacity-20  '>Terms & Condition</p>
                 <p className='text-[18px] text-white opacity-20  '>Privacy Policy </p>
                 <p className='text-[18px] text-white opacity-20  '> Sitemap</p>
+                <p className='text-[18px] text-white opacity-20  '><a href="https://www.linkedin.com/in/abdelmounaim-elabiade/"><FaLinkedin /></a> </p>
+                <p className='text-[18px] text-white opacity-20  '><a href="https://www.instagram.com/abdelmounaim_08"><FaInstagram /></a>  </p>
+                <p className='text-[18px] text-white opacity-20  '><a href="https://github.com/Abdelmounaim08"><FaGithub /></a>  </p>
             </div>
         </div>
     </div>
