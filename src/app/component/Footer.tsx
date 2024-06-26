@@ -49,13 +49,12 @@ function Footer() {
             <div className='text-[18px] mb-[2rem] md:mb-0 text-white opacity-20 '>
                 Abdelmounaim Elabiade | All Right Reserved 
             </div>
-            <div className='flex items-center space-x-10'>
+            <div className='flex items-center sm:space-x-10 md:space-x-11 space-x-7'>
                 <p className='text-[18px] text-white opacity-20  '>Terms & Condition</p>
                 <p className='text-[18px] text-white opacity-20  '>Privacy Policy </p>
-                <p className='text-[18px] text-white opacity-20  '> Sitemap</p>
-                <p className='text-[18px] text-white opacity-20  '><a href="https://www.linkedin.com/in/abdelmounaim-elabiade/"><FaLinkedin /></a> </p>
-                <p className='text-[18px] text-white opacity-20  '><a href="https://www.instagram.com/abdelmounaim_08"><FaInstagram /></a>  </p>
-                <p className='text-[18px] text-white opacity-20  '><a href="https://github.com/Abdelmounaim08"><FaGithub /></a>  </p>
+                <p className='text-[18px] text-white opacity-18  '><a href="https://www.linkedin.com/in/abdelmounaim-elabiade/"><FaLinkedin /></a> </p>
+                <p className='text-[18px] text-white opacity-18  '><a href="https://www.instagram.com/abdelmounaim_08"><FaInstagram /></a>  </p>
+                <p className='text-[18px] text-white opacity-18 '><a href="https://github.com/Abdelmounaim08"><FaGithub /></a>  </p>
             </div>
         </div>
     </div>
