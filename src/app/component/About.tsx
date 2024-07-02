@@ -7,7 +7,7 @@ import Ballcanvas from './3dmodal'
 const About = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = 'https://drive.google.com/file/d/1jnNCWnQYSmdGAq_XNHgHmkvyq6W6ux1G/view';
+    link.href = 'https://drive.google.com/file/d/1NcvDNW0rrmRtyHJXWDaCrBxJkQrEzZjA/view';
     link.download = 'ElabiadeCv.pdf';
     link.click();
   };
@@ -37,7 +37,7 @@ const About = () => {
        <div data-aos='fade-left' 
        className='lg:w-[500px]  mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[500px] w-[200px] h-[150px] relative'>
      {/**<Ballcanvas icon={'/image/mounaim.jpeg'}/> */}  
-     <Image src='/image/mounaim01.jpeg'
+     <Image src='/image/mounaim06.jpeg'
      alt='user' layout='fill' objectFit='contain'
      className=' relative z-[11]  mt-10 bg-white  w-[200px] h-[150px] object-contain'/>
     

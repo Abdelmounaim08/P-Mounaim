@@ -10,7 +10,7 @@ import { ArrowDownTrayIcon, PlayCircleIcon } from '@heroicons/react/16/solid'
 export const Hero = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = 'https://drive.google.com/file/d/1jnNCWnQYSmdGAq_XNHgHmkvyq6W6ux1G/view';
+    link.href = 'https://drive.google.com/file/d/1NcvDNW0rrmRtyHJXWDaCrBxJkQrEzZjA/view';
     link.download = 'ElabiadeCv.pdf';
     link.click();
   };
