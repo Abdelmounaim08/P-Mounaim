@@ -25,7 +25,7 @@ function Skils() {
           
           <SklisItems title='Node JS Developer' year='2022-2024' text="As a skilled Node.js developer, I have expertise in building backend applications using the Node.js runtime environment. With Node.js, I can develop scalable and efficient web applications, leveraging its non-blocking, event-driven architecture. From API development to server-side rendering, I utilize Node.js to create robust applications that handle high volumes of traffic and deliver optimal performance."/>
           <SklisItems title='Remix TS Developer' year='2024' text="As an experienced Remix developer, I specialize in building powerful and scalable web applications. Remix is a server-rendered React framework that enables me to create dynamic and interactive user interfaces. Leveraging Remix's features like server-side rendering, code splitting, and data fetching, I deliver performant applications that provide an exceptional user experience"/>
-          <SklisItems title='shpify Developer' year='2024' text="As an experienced Shopify developer, 
+          <SklisItems title='shopify Developer' year='2024' text="As an experienced Shopify developer, 
           I specialize in building customized e-commerce solutions on the Shopify platform. With a deep understanding of Shopify's Liquid templating language and APIs, I can create visually appealing and fully functional online stores. Whether it's designing custom themes, integrating payment gateways, I leverage Shopify's features to deliver seamless shopping experiences for clients."/>
           <SkilsLangaue skill1='REACT'
            skill2='larvel' 
