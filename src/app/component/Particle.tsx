@@ -34,7 +34,7 @@
        options={{
          background: {
             color: {
-              value: "white",
+              value: "bg-gradient-to-r from-slate-900/80 via-purple-900/80 to-slate-900/80 backdrop-blur-lg",
             },
          },
          fpsLimit: 120,

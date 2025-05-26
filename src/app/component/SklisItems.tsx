@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion'
 import React from 'react'
 interface Props{
     title:string,
@@ -7,14 +8,22 @@ text:string,
 
 function SklisItems({title,year,text}:Props) {
   return (
-    <div className='mb-[4rem] md:mb-[8rem] h-full  '>
-        <span className='px-[2rem] text-[#55e6a5] py-[0.9rem] font-bold text-[18px] border-[2px] border-[#55e6a5]'>{year}</span>
-    <h1 className='mt-[2rem] font-semibold uppercase  mb-[1rem] text-[20px] sm:text-[25px] md:text-[30px] text-white  '>
+    <motion.div 
+      className="mb-8 md:mb-16 h-full"
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5 }}
+    >
+      <span className="px-6 text-emerald-400 py-2 font-bold text-lg border-2 border-emerald-400 inline-block">
+        {year}
+      </span>
+      <h3 className="mt-6 font-semibold uppercase mb-4 text-xl sm:text-2xl md:text-3xl text-white">
         {title}
-    </h1>
-    <p className=' text-[#aaaaaa] font-normal text-[17px] opacity-80 w-full h-full  '>{text}</p>
-
-    </div>
+      </h3>
+      <p className="text-gray-400 font-normal text-base opacity-80">
+        {text}
+      </p>
+    </motion.div>
   )
 }
 

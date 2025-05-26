@@ -16,7 +16,7 @@ export const ExampleComponent = () => {
       ]}
    
       speed={50}
-      className='text-[2rem] md;text-[3rem] text-[#55e6a5] font-bold uppercase'
+      className='text-[2rem] md;text-[3rem] text-cyan-400 font-bold uppercase'
       repeat={Infinity}
     />
   );
