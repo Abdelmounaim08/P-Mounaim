@@ -30,9 +30,12 @@ const About = () => {
         {/* Content with decorative line */}
         <div className='mb-[3rem] flex items-center md:space-x-10'>
           <span className='w-[100px] hidden md:block h-[5px] bg-gradient-to-r from-cyan-400 to-purple-400 rounded-sm'></span>
-          <p className='text-[19px] flex text-slate-300 w-[110%]'>
+          {/* <p className='text-[19px] flex text-slate-300 w-[110%]'>
             As a junior full-stack developer, I bring a comprehensive range of skills to the table, including HTML, CSS, JavaScript, Python, and PHP. I'm also proficient with front-end frameworks like React and Next.js, and back-end frameworks such as Laravel. With a solid foundation in front-end technologies, I'm eager to leverage modern tools like Prisma and SQLite for robust data management, and exploring the potential of Remix for building performant web applications. I'm passionate about learning and building innovative solutions.
-          </p>
+          </p> */}
+          <p className='text-[19px] flex text-slate-300 w-[110%]'>
+  As a junior full-stack developer, I bring a comprehensive range of skills to the table, including HTML, CSS, JavaScript, Python, and PHP. I&apos;m also proficient with front-end frameworks like React and Next.js, and back-end frameworks such as Laravel. With a solid foundation in front-end technologies, I&apos;m eager to leverage modern tools like Prisma and SQLite for robust data management, and exploring the potential of Remix for building performant web applications. I&apos;m passionate about learning and building innovative solutions.
+</p>
         </div>
         
         {/* Download Button (commented version with updated colors) */}

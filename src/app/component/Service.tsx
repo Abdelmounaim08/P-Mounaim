@@ -21,7 +21,7 @@ function Service() {
         <CodeBracketSquareIcon className='w-[6rem] h-[6rem] mx-auto text-cyan-400'/>
         <h1 className='text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem] text-cyan-300'>frontend</h1>
         <p className='text-[15px] text-slate-300'>
-          I'm an experienced Front-end developer specializing in creating
+        I&apos;m an experienced Front-end developer specializing in creating
           attractive and interactive user interfaces. Using the latest technologies like HTML5, CSS3,
           and JavaScript, I excel in frameworks such as React.js and Next JS. My focus is on delivering smooth and intuitive user experiences,
           prioritizing performance, accessibility, and cross-platform compatibility.
@@ -41,7 +41,7 @@ function Service() {
         <h1 className='text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem] text-purple-300'>Backend</h1>
         <p className='text-[15px] text-slate-300'>
           As a skilled Back-end developer, I build robust services and APIs
-          to power web applications. Proficient in languages like PHP, JavaScript, and Node.js, I'm well-versed
+          to power web applications. Proficient in languages like PHP, JavaScript, and Node.js, I&apos;m well-versed
           in popular frameworks such as Laravel, Express. My expertise lies in designing databases and implementing complex business logic,
           ensuring high-performing and secure Back-end solutions.
         </p>
@@ -59,7 +59,7 @@ function Service() {
         <CommandLineIcon className='w-[6rem] h-[6rem] mx-auto text-indigo-400'/>
         <h1 className='text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem] text-indigo-300'>fullstack</h1>
         <p className='text-[15px] text-slate-300'>
-          I'm a versatile Full-stack developer with the ability to handle both Front-end and Back-end development.
+        I&apos;m a versatile Full-stack developer with the ability to handle both Front-end and Back-end development.
           I can design appealing user interfaces while implementing server-side logic.
           With in-depth knowledge of Front-end technologies like HTML, CSS, and JavaScript,
           coupled with Back-end skills in Python, PHP, and Node.js,
