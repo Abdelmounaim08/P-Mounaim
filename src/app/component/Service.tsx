@@ -21,7 +21,8 @@ function Service() {
         <CodeBracketSquareIcon className='w-[6rem] h-[6rem] mx-auto text-cyan-400'/>
         <h1 className='text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem] text-cyan-300'>frontend</h1>
         <p className='text-[15px] text-slate-300'>
-        I&apos;m an experienced Front-end developer specializing in creating
+        I&apos;m an experienced Front-end developer specializing in creating 
+        
           attractive and interactive user interfaces. Using the latest technologies like HTML5, CSS3,
           and JavaScript, I excel in frameworks such as React.js and Next JS. My focus is on delivering smooth and intuitive user experiences,
           prioritizing performance, accessibility, and cross-platform compatibility.
